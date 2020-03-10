@@ -1,8 +1,8 @@
 var app = new Vue({ 
     el: '#app',
     data: {
-        message: 'Hello Vue!\n',
-        message_new: 'This is TING first Vue JS on Netlify!\n'
+        message: 'Hello Vue!',
+        message_new: 'This is TING first Vue JS on Netlify!'
     }
 });
 var app2 = new Vue({
