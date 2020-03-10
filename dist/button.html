@@ -101,7 +101,7 @@
     </style>
   </head>
   <body>
-    <h2>Button editor</h2>
+    <h2>Meng Seng's Sandbox</h2>
     <div id="app">
       <div class="form">
         <label for="width">width: </label>
@@ -118,7 +118,6 @@
 
         <label>text-align: </label>
         <select v-model="btn.textAlign">
-          <option value="" disabled>Selecione uma opção</option>
           <option value="center">center</option>
           <option value="left">left</option>
           <option value="right">right</option>
@@ -141,7 +140,7 @@
       </div>
 
       <div class="box">
-        <button :style="btn" class="btn">I'm button</button>
+        <button :style="btn" class="btn">Meng Seng's button</button>
       </div>
     </div>
     <br /><br />
@@ -153,14 +152,14 @@
         data: {
           btn: {
             width: "200px",
-            height: "50px",
+            height: "80px",
             fontSize: "19px",
             fontFamily: "monospace",
             textAlign: "center",
-            background: "tomato",
+            background: "blue",
             color: "#ffffff",
             borderRadius: "4px",
-            borderColor: "tomato"
+            borderColor: "black"
           }
         }
       });
