@@ -1,9 +1,13 @@
-<!DOCTYPE html>
-<html>
-<body>
+<!-- development version, includes helpful console warnings -->
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 
-<h1>My First Heading</h1>
-<p>My first paragraph.</p>
+<div id="app">
+  {{ message }}
+</div>
 
-</body>
-</html>
+<div id="app-2">
+  <span v-bind:title="message">
+    Hover your mouse over me for a few seconds
+    to see my dynamically bound title!
+  </span>
+</div>
